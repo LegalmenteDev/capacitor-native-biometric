@@ -58,6 +58,8 @@ export interface DeleteCredentialOptions {
 export interface NativeBiometricPlugin {
   isAvailable(options?: IsAvailableOptions): Promise<AvailableResult>;
 
+  isAvailableDeviceSecure(): Promise<AvailableResult>;
+
   verifyIdentity(options?: BiometricOptions): Promise<any>;
 
   getCredentials(options: GetCredentialOptions): Promise<Credentials>;

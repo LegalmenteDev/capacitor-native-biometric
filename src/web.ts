@@ -16,7 +16,12 @@ export class NativeBiometricWeb
   constructor() {
     super();
   }
+
   isAvailable(): Promise<AvailableResult> {
+    throw new Error("Method not implemented.");
+  }
+
+  isAvailableDeviceSecure(): Promise<AvailableResult> {
     throw new Error("Method not implemented.");
   }
 

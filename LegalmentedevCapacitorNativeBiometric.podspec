@@ -1,6 +1,6 @@
 
   Pod::Spec.new do |s|
-    s.name = 'CapacitorNativeBiometric'
+    s.name = 'LegalmentedevCapacitorNativeBiometric'
     s.version = '0.0.1'
     s.summary = 'This plugin gives access to the native biometric apis for android and iOS'
     s.license = 'MIT'

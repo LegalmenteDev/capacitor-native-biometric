@@ -67,7 +67,7 @@ public class AuthActivity extends AppCompatActivity {
             public void onAuthenticationError(int errorCode, @NonNull CharSequence errString) {
                 super.onAuthenticationError(errorCode, errString);
 
-                finishActivity("failed", errorCode)
+                finishActivity("failed", errorCode);
             }
 
             @Override
