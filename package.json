@@ -44,9 +44,6 @@
     "type": "git",
     "url": "https://github.com/epicshaggy/capacitor-native-biometric"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/legalmentedev"
-  },
   "bugs": {
     "url": "https://github.com/epicshaggy/capacitor-native-biometric/issues"
   }
